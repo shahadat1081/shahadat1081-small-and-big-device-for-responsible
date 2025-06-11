@@ -1,0 +1,672 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+
+}
+
+header div{
+    float: left;
+}
+header .logo{
+    margin-left: 180px;
+    padding-top: 15px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 160px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 35px;
+    padding-top: 5px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(44, 43, 43);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0,0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -130px;
+    position: relative;
+    
+}
+#check{
+    display: none;
+}
+/* Section part start*/
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+    margin: 0 auto;
+}
+.half1{
+    margin-left: 190px;
+    margin-bottom: 120px;
+}
+.half2{
+    margin-right: 30px;
+}
+.half2 img{
+    max-width: 70%;
+    height: auto;
+    margin-right: -100px;
+    border: 07px solid  #8393ff;
+    border-radius: 3px;
+
+}
+.half1 h3{
+    font-weight: normal;
+    color: rgb(65, 62, 62);
+}
+.half1 h1{
+    font-size: 50px;
+}
+.half1 p{
+    color: rgb(110, 106, 106);
+    
+}
+.half1 input{
+    background-color: #8393ff;
+    padding: 8px 7px;
+    outline: none;
+    border: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    color:wheat;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    cursor: pointer;
+}
+/*section one end*/
+/*SECTION TWO START*/
+.section2{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half3, .half4{
+    width: 40%;
+    margin: 0 auto;
+}
+.half4{
+    margin-right: 60px;
+    margin-bottom: 120px;
+}
+.half3{
+    
+    margin-left: 160px;
+}
+.half3 img{
+    max-width: 50%;
+    height: auto;
+    border: 5px solid #9f97ff;
+    border-radius: 3px ;
+}
+.half4 h3{
+    font-weight: normal;
+    color: rgb(78, 75, 75);
+}
+.half4 h1{
+    font-size: 40px;
+}
+.half4 p{
+    color: rgb(110, 106, 106);
+    
+}
+.half4 input{
+    background-color: #8393ff;
+    padding: 8px 7px;
+    outline: none;
+    border: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    color:wheat;
+}
+.half4 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    cursor: pointer;
+}
+/*section part 2 End*/
+/*section part 3 Start*/
+.section3{
+    width: 100%;
+    height: 670px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9ff;
+    margin-top: 100px;
+    
+}
+.servicepart h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.servicepart p{
+    width: 600px;
+    color: #88888b;
+    margin: 0 auto;
+    text-align: center;
+}
+.service{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 50px;
+      
+}
+.ser1{
+    position: relative;
+    display: flex;
+  
+ 
+   
+}
+.ser1 div{
+    width: 300px;
+    margin-right: 5px;
+     margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 4px;
+}
+.ser1 div h1:hover{
+    color: rgb(48, 153, 214);
+    transition: all 1s;
+}
+.ser1 div:hover{
+    background-color: #f9f9ff;
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    border-radius: 5px;
+
+}
+.ser1 div p{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(87, 83, 83);
+}
+.ser1 div i{
+    font-size: 25px;
+}
+.ser1 div a .fa-facebook-f{
+    color: rgb(13, 43, 177);
+    transition: all 1s;
+}
+.ser1 div a .fa-twitter{
+color: rgb(16, 185, 157);
+    transition: all 1s;
+}
+.ser1 div a .fa-camera{
+color: rgb(21, 22, 22);
+    transition: all 1s;
+}
+
+
+.ser2{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+  
+ 
+   
+}
+
+.ser2 div{
+    width: 300px;
+    margin-right: 5px;
+     margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 4px;
+}
+.ser2 div:hover{
+    background-color: #f9f9ff;
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+}
+.ser2 div h1:hover{
+    color: rgb(48, 153, 214);
+    transition: all 1s;
+}
+.ser2 div p{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(87, 83, 83);
+}
+.ser2 div i{
+    font-size: 25px;
+    
+}
+.ser2 div a .fa-camera{
+color: rgb(21, 22, 22);
+    transition: all 1s;
+}
+.ser2 div a .fa-youtube{
+color: rgb(248, 7, 87);
+    transition: all 1s;
+}
+.ser2 div a .fa-instagram{
+color: rgb(158, 20, 55);
+    transition: all 1s;
+}
+/* section 3 part End*/
+
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(65, 162, 207);
+    position: relative;
+    display: flex;
+    border-radius: 3px;
+    
+}
+.section4 div{
+    
+     margin: 0 auto;
+    
+}
+.section4 div p{
+    color: white;
+}
+.section4 div h1{
+    margin-top: 80px;
+    text-align: center;
+    line-height: 10px;
+}
+
+/*section 4 part End*/
+/*section 5 part start*/
+.section5{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+.section5 .protfolio{
+    margin: 0 auto;
+    text-align: center;
+}
+.protfolio h1{
+    color: rgba(0, 0, 0,0.85);
+    line-height: 10px;
+}
+.protfolio p{
+    color: rgb(88, 85, 85);
+}
+
+.section5 .imgg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0, 0,0,0.9);
+}
+.section5 .img p{
+    color: rgba(0, 0,0,0.7);
+    line-height: 0;
+   
+}
+.section5 figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.section5 .imgg img:hover{
+    opacity: 0.3;
+    transition: all .3s ease-in-out;
+}
+/*section5 part End*/
+.section6{
+    width: 100%;
+    height:700px;
+
+}
+.section6 .text1{
+    text-align: center;
+    margin-top: 70px;
+    padding: 2% 0;
+}
+.section6 .text1 h1{
+    font-size: 40px;
+     color: rgba(0, 0,0,0.9);
+     line-height: 0;
+}
+.section6 .text1 p{
+     color: rgba(0, 0,0,0.7);
+     
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 530px;
+    background-color: rgba(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0,0,0.1);
+    padding: 5px;
+}
+.section6 .card1 h1{
+  font-size: 50px;
+  padding-top: 8px;
+}
+.section6 .card1 h3{
+  font-size: 25px;
+  padding-top: 8px;
+}
+.section6 .card1 p{
+     color: rgba(0, 0, 0,0.8);
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0,0.9);
+    background-color: white;
+}
+.section6 .card1:hover p{
+    color: white;
+}
+.section6 .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0,0.5);
+}
+/*section6 part End*/
+footer{
+    background-color: rgba(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+    color: white;
+    
+}
+footer .foot{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.foot .foot1{
+    margin-right: 170px;
+}
+footer .foot .foot1 p{
+     color: rgba(255,255,255,0.5);
+     width: 400px;
+     
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 15px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+footer .foot .foot1 i:hover{
+    color: #8293ff;
+}
+/*footer part End*/
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background: #f9f9ff;
+    top: 54px;
+    left: -200px;
+    transition: all .1s;
+    
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0px;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+   
+
+}
+@media (max-width:768px){
+     .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .half1{
+        margin: auto;
+        padding: 10px;
+    }
+    .half1 h3{
+        font-size: 15px;
+    }
+    .half1 h1{
+        font-size: 30px;
+    }
+    .half2 img{
+        margin-left: -80px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section2{
+        width: 100%;
+        display: block;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+    }
+    .section2 .half3 img{
+        position: relative;
+        border: 2px solid green;
+    }
+    .section2 div{
+        width: 100%;
+    }
+    .half4{
+        position: relative;
+        left: 15px;
+        text-align: center;
+
+    }
+    .half4 h1{
+        font-size: 30px;
+    }
+       .half4 h3{
+        font-size: 15px;
+    }
+       .half4 p{
+        width: 500px;
+        font-size: 15px;
+        color: rgba(0, 0,0,0.9);
+        margin-left: 0px;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+    }
+
+    .servicepart h1{
+        font-size: 30px;
+        color: rgba(0, 0, 0,0.9);
+    }
+    .servicepart p{
+        font-size: 15px;
+        color: rgba(0, 0, 0,0.7);
+        width: 400px;
+    }
+    .service .ser1 {
+        display: block;
+    }
+     .service .ser2 {
+        display: block;
+    }
+    .service{
+        position: relative;
+        margin-bottom: 400px;
+    }
+    .section4 div{
+        margin-right: 10px;
+        text-align: center;
+    }
+    .section5 .protfolio h1{
+        font-size: 30px;
+        color: rgba(0, 0, 0,0.9);
+    }
+      .section5 .imgg h1{
+        font-size: 15px;
+        color: rgba(0, 0, 0,0.9);
+    }
+     .section5 .imgg p{
+        font-size: 12px;
+        line-height: 0;
+        color: rgba(0, 0, 0,0.8);
+    }
+    
+    .section6 .card{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin-left: 20%;
+        
+    }
+    .section6 .card1{
+        margin-top: 50px;
+    }
+    .section6 .text1 h1{
+        font-size: 30px;
+        color: rgba(0, 0, 0,0.9);
+    }
+     .section6 .text1 p{
+        font-size: 12px;
+        color: rgba(0, 0, 0,0.8);
+      width: 300px;
+      margin: 0 auto;
+    }
+  footer{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   top: 120em;
+    
+  }
+  footer .foot{
+    display: block;
+    position: relative;
+    top: 100px;
+  }
+  .foot .foot1 p{
+    width: 80%px;
+  }
+
+
+}
+
