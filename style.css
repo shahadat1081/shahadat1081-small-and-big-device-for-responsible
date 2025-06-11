@@ -496,6 +496,12 @@ footer .foot .foot1 i:hover{
 }
 /*footer part End*/
 @media (max-width:768px){
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
     header{
         width: 100%;
         height: auto;
@@ -533,6 +539,12 @@ footer .foot .foot1 i:hover{
 
 }
 @media (max-width:768px){
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
      .section1{
         width: 100%;
         display: block;
