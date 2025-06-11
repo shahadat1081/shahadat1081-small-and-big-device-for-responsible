@@ -29,7 +29,6 @@ header .nav{
 }
 header .nav ul{
     list-style: none;
-    margin-right:250px;
 }
 header .nav ul li{
     float: left;
@@ -52,7 +51,7 @@ header .nav ul li a:hover{
     color: rgba(0, 0, 0,0.9);
     float: right;
     line-height: 80px;
-    margin-right:-200px;
+    margin-right:-130px;
     position: relative;
     
 }
@@ -540,7 +539,7 @@ footer .foot .foot1 i:hover{
         width: 100%;
         display: block;
         height: auto;
-         margin-left:8%;
+        
     }
     .half1{
         margin: auto;
@@ -668,7 +667,7 @@ footer .foot .foot1 i:hover{
     top: 100px;
   }
   .foot .foot1 p{
-    width: 80%px;
+    width: 80%;
   }
 
 
